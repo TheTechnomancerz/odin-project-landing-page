@@ -1,16 +1,22 @@
 *{
     margin: 0;
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img {
+    width: 200px;
 }
 button{
     border: none;
     padding: 0;
     border-radius: 4px;
+    width: 100px;
+    padding: 8px 16px;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    /* padding-left: 64px;
+    padding-right: 64px; */
 }
 a{
     text-decoration: none;
@@ -19,9 +25,9 @@ a{
 }
 header{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
-    padding: 24px;
+    padding: 24px 128px;
 }
 .logo{
     display: flex;
@@ -41,14 +47,15 @@ ul{
     display: flex;
     background-color: #1F2937;
     justify-content: center;
-    padding: 24px;
-    
+    padding: 64px 128px;
+    gap: 64px;
 }    
 .hero{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    
+    flex: 1;
+    justify-content: center;
+    gap: 32px;
 }
 .hero h1{
     font-size: 48px;
@@ -63,6 +70,7 @@ button{
     background-color: #3882f6;
     color: #e5e7eb;
 }
-.hero-container img{
-    width: 300px;
+.dev-img{
+    /* width: 300px; */
+    flex: 1;
 }
