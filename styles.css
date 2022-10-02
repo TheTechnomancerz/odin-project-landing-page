@@ -74,3 +74,20 @@ button{
     /* width: 300px; */
     flex: 1;
 }
+.random-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 64px;
+    padding: 0px 64px 64px 64px;
+}
+.subtext{
+    width: 200px;
+}
+.mid{
+    text-align: center;
+    padding: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
